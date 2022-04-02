@@ -2,15 +2,15 @@
 
 <html>
   <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>My Simple Interest Calculator</title>
   </head>
   <body>
     <div class="maindiv">
       <h1>Simple Interest Calculator</h1>
 
-      Amount: <input type="number" id="principal" /> <br />
+      Amount: <input type="number" id="principal" /> <br /> <br>
       Rate:
       <input
         onchange="updateRate()"
@@ -22,7 +22,7 @@
         value="10.25"
       />
       <span id="rate_val"> 10.25% </span>
-      <br />
+      <br /> <br>
       No. of Years:
       <select name="" id="years">
         <option value="1">1</option>
@@ -34,12 +34,14 @@
         <option value="20">20</option>
       </select>
       <br />
-      Interest : <span id="intst"></span> <br />
-      <span id="res"></span>
-
-      <button onclick="compute()">Compute</button>
-      <br /><br />
+      <br>
+      <button id="btn" onclick="compute()">Compute</button>
+      <br />
+      <span id="res">
+        
+      </span>
+      <br>
+      <footer>&#169; Copyright By Sultan Mahmud. All Rights Reserved.</footer>
     </div>
   </body>
-  <footer>&#169; Copyright By Sultan Mahmud. All Rights Reserved.</footer>
 </html>
