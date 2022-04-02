@@ -22,7 +22,7 @@ function compute() {
 
             var interest = (principal * years * rate) / 100;
             var result =
-                "If you deposit <mark>" +
+                "<br>If you deposit <mark>" +
                 principal +
                 "</mark>, <br> at an interest rate of <mark>" +
                 rate +
