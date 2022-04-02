@@ -15,7 +15,7 @@ function compute()
     {
         if (principal <= 0)
         {
-            alert("Amount cannot be less that zero. Please enter a positive number");
+            alert("Amount cannot be less that zero. Please enter a positive number!");
             document.getElementById("principal").focus();
             return false;
         }
